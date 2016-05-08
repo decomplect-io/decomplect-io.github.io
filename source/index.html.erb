@@ -1,228 +1,195 @@
-<body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top">decomplect</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a class="page-scroll" href="#services">Services</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
+---
+title: decomplect
+layout: layout
+talks:
+- conference: "EuroClojure 2015"
+  location: "Barcelona"
+  title: "What Lies Beneath"
+  url: "https://www.youtube.com/embed/7BFF50BHPPo"
+- conference: "RootConf 2015"
+  location: "Bangalore"
+  title: "What DevOps can learn from sports teams."
+  url: "https://www.youtube.com/embed/PtvuPQFYS98"
+- conference: "Functional Conf 2014"
+  location: "Bangalore"
+  title: "Purely functional data structures demystified"
+  url: "https://www.youtube.com/embed/GquWlSolgf0"
+- conference: "RubyConf India 2013"
+  location: "Pune"
+  title: "Ruby loves Unix"
+  url: "https://www.youtube.com/embed/w0UW4NJbNRs"
+---
+<main class="landing">
+  <div class="row">
+    <div class="column">
+      <section class="hero">
+        <h1 class="title">
+          decomplect
+        </h1>
+        <div class="byline">
+          <h2>
+            We help you <strong><%= link_to 'grow', '#grow' %></strong> your business,
+          </h2>
+          <h2>
+            through software that <strong><%= link_to 'ages well', '#wine' %></strong>.
+          </h2>
+        </div>
+      </section>
     </div>
-    <!-- /.container-fluid -->
-  </nav>
-
-  <header>
-    <div class="header-content">
-      <div class="header-content-inner">
-        <h1>Software Made Simple</h1>
-        <hr>
-        <p>At decomplect, we believe in crafting simple solutions for hard problems.</p>
-				<p>We use functional programming and the DevOps philosophy to craft beautiful, usable software.</p>
-        <a href="#services" class="btn btn-primary btn-xl page-scroll">Read More</a>
-      </div>
-    </div>
-  </header>
-
-
-  <section id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">What We Do</h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-            <h3>Software Delivery</h3>
-            <p class="text-muted">We ship thoroughly tested, carefully crafted software.</p>
-          </div>
-        </div>
-			</div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-            <h3>Consulting</h3>
-            <p class="text-muted">We work with your team and help you adopt functional programming and the DevOps philosophy.</p>
-          </div>
-        </div>
-			</div>
-			<div class="row"">
-        <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-            <h3>Community</h3>
-						<p class="text-muted">We are the creators of
-							<a href="http://devtoprod.com">Dev To Prod</a> - a series of videos on DevOps and Continuous Delivery.
-						</p>
-						<p class="text-muted">We also speak regularly at <a href="#conferences">conferences</a> around the world</p>
-          </div>
-        </div>
-			</div>
-			<div class="row">
-        <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-            <h3>Open Source</h3>
-            <p class="text-muted">We love giving back to the community. Check out our <a href="http://github.com/decomplect-io">Github repo</a> for our work.</p>
-          </div>
-        </div>
-			</div>
-    </div>
-	</section>
-
-	<section id="conferences">
-		<div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Conferences we have spoken at</h2>
-        <hr class="primary">
-      </div>
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-					<h3>EuroClojure 2015, Barcelona</h3>
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="360" height="200" src="https://www.youtube.com/embed/7BFF50BHPPo" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-					<h3>Rootconf 2015, Bangalore</h3>
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="480" height="270" src="https://www.youtube.com/embed/PtvuPQFYS98" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-					<h3>Functional Conf 2014, Bangalore</h3>
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="420" height="315" src="https://www.youtube.com/embed/GquWlSolgf0" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-					<h3>RubyConf 2013, Pune</h3>
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/w0UW4NJbNRs" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-  <section id="portfolio">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Clients that trust us</h2>
-        <hr class="primary">
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row no-gutter">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <a href="https://crowdfireapp.com" class="portfolio-box">
-            <%= image_tag "portfolio/crowdfire-logo.png", class: "img-responsive",  alt: "Crowdfire Logo" %>
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-									DevOps
-                </div>
-                <div class="project-name">
-                  We helped Crowdfire set up their Continuous Delivery pipelines
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <a href="https://getsimpl.com" class="portfolio-box">
-            <%= image_tag "portfolio/simpl-logo.png", class: "img-responsive",  alt: "Simpl Logo" %>
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-									Consulting
-                </div>
-                <div class="project-name">
-									We worked with getsimpl.com to enable them to go to market quickly and iteratively
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <a href="http://iconanalytical.com" class="portfolio-box">
-						<%= image_tag "portfolio/icon-analytical.png", class: "img-responsive", alt: "Icon analytical image" %>
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Delivery
-                </div>
-                <div class="project-name">
-                  We delivered a custom CRM solution for Icon Analytical to make their sales organization more effective.
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
+  </div>
+  <section class="row about-us">
+    <section class="column">
+      <h2>Who are we?</h2>
+      <p>
+        decomplect is a software consultancy based out of Pune, India.
+      </p>
+      <p>
+        We work closely with <%= link_to 'our customers', '#customers' %> to deliver software
+        using the principles of <%= link_to 'continuous delivery.', '#continuous-delivery' %>
+      </p>
+      <p>
+        We <%= link_to 'speak', '#talks' %> at tech conferences around the world.
+      </p>
+      <p>
+        We are the creators of <a href="devtoprod.com">Dev To Prod</a>, a series of videos
+        on topics from DevOps and continuous delivery.
+      </p>
+      <p>
+        We love to give back to the community.
+        We taught a workshop on infrastructure automation at Garden City Ruby Conf 2016 in Bangalore.
+        We are also workshop sponsors at Deccan Ruby Conf 2016 in Pune.</p>
+      <p>
+        We contribute to <%= link_to 'open source', 'http://github.com/decomplect-io' %>.
+      </p>
+      <p>
+        We are building a <strong>tribe</strong> of passionate programmers.
+        Would you like to <%= link_to 'work with us?', '#work-with-us' %>
+      </p>
+    </section>
   </section>
-
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-          <hr class="primary">
-          <p>Send us an email and we will reply in 24 hours.</p>
-        </div>
-        <div class="col-lg-4 col-lg-offset-4 text-center">
-          <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-          <p><a href="mailto:mohit@decomplect.io">mohit@decomplect.io</a></p>
-        </div>
-      </div>
-    </div>
+  <section class="row talks-header">
+    <section class="column">
+      <h2>Our talks</h2>
+    </section>
   </section>
-
-  <!-- jQuery -->
-  <script src="javascripts/jquery.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="javascripts/bootstrap.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="javascripts/jquery.easing.min.js"></script>
-  <script src="javascripts/jquery.fittext.js"></script>
-  <script src="javascripts/wow.min.js"></script>
-
-  <!-- Custom Theme JavaScript -->
-  <script src="javascripts/creative.js"></script>
-</body>
+  <section class="row talks" id="talks">
+    <% current_page.data.talks.each do |talk| %>
+        <section class="column">
+          <h4><%= talk.conference %></h4>
+          <iframe width="100%" src=<%= "\"#{talk.url}\"" %>  frameborder="0" allowfullscreen></iframe>
+        </section>
+    <% end %>
+  </section>
+  <section class="row" id="grow">
+    <section class="column on-growth">
+      <h2>On growth</h2>
+      <p>
+        Most business want to grow! Growth is hard, because it comes with growing pains.
+        You might be having a hard time scaling your team, or maybe your infrastructure can't cope with customer demand?
+        These are good problems to have, it means you are building something that people want. We are here to help.
+        We work with <%= link_to 'customers', '#customers' %> to deliver software that destroys bottlenecks and enables
+        growth.
+      </p>
+    </section>
+  </section>
+  <section class="row" id="wine">
+    <section class="column wine">
+      <h2>On aging well</h2>
+      <p>
+        It is estimated that 80% of the time, effort and money spent on IT is spent on maintaining legacy systems.
+        Legacy systems are characterized by being hard to change. One of our missions is to write software
+        that lives forever - ever changing, ever evolving. We are passionate about keeping software 'soft'.
+      </p>
+      <p>
+        This is easier said than done. It requires being careful and deliberate about modeling your domain.
+        It requires teasing out concepts that are independent and then composing them together to create valuable
+        software.
+        We believe in hammock-driven development, we like to take some time up front to figure out the 'why', before
+        jumping into the 'how'. We like to use the right <%= link_to 'tools', '#tools' %> for the job.
+      </p>
+    </section>
+  </section>
+  <section class="customers" id="customers">
+    <h2>Who should hire us?</h2>
+    <p>
+      You are a startup, who has found or wants to find product-market fit.
+      You understand that software is your competitive advantage, and you believe in
+      investing in good quality software. We can help by delivering modular software
+      with a continuous delivery pipeline. Read about how we helped getsimpl.com iterate
+      and find product-market fit...
+    </p>
+    <p>
+      You are an established enterprise, and you've identified bottlenecks to growth.
+      You believe that 'software is eating the world' and you want to invest in tools
+      that will give you the edge over your competition. You realize that most software
+      does not age well, it becomes increasingly painful and costly to maintain. We can
+      help by being laser focused on modularity and maintainability as we deliver tools
+      to power your business. Read about how we are working with a Fortune 500 (details under NDA)
+      enterprise to help them move to a micro-service architecture...
+    </p>
+    <p>
+      You are a small business that has a fairly specialized workforce and problem domain.
+      The off-the-shelf tools don't cut it for you, because they don't speak your language. You want
+      the tool to be designed for your people, rather than forcing your people to learn something
+      that doesn't really fit. Read about how we worked with Icon Analytical Systems to build
+      a custom CRM system for their sales force.
+    </p>
+  </section>
+  <section class="scale-your-business" id="scale">
+    <h2>Customer Stories</h2>
+    <h3>Product-market fit for a startup</h3>
+    <p>
+      We worked with getsimpl.com to find product-market fit.
+      This included setting up the engineering organization to enable continuous delivery.
+      Specifically, we helped setup code review processes (Github PR's), continuous integration (Circle CI),
+      release automation (Github Releases) and cloud infrastructure (AWS).
+      We also helped the team make tech choices and architect their backend for scale.
+    </p>
+    <hr>
+    <h3>Micro-services at a large enterprise organization</h3>
+    <p>
+      We are working with a large enterprise to help them with their transition from monolithic services
+      to independent micro-services. This includes setting up a continuous delivery pipeline
+      for each service by making it independently testable and releasable. The micro-services are based
+      on OpenShift.
+    </p>
+    <h3>Custom CRM for a small business</h3>
+    <p>
+      We worked with Icon Analytical to create a custom CRM tailored to their needs. We continue to
+      incorporate their feedback into the system, thereby creating a living, breathing software that
+      is flexible and continues to change. We used React.js for the frontend and Ruby on Rails for the backend.
+    </p>
+  </section>
+  <section class="how-we-work" id="continuous-delivery">
+    <h2>How We Work</h2>
+  </section>
+  <section class="continuous-delivery">
+    <h2>We practice <strong>continuous delivery</strong></h2>
+    <p>
+      We ensure that changes to your software can be made reliably, repeatably and quickly
+      by using tools and techniques from the world of DevOps.
+    </p>
+  </section>
+  <section class="we-are-lean">
+    <h2>We are <strong>lean</strong></h2>
+    <p>
+      Building the right thing is the single most important challenge for business
+      stakeholders. We help you adopt the scientific method of trying small experiments to figure out
+      what works. We focus on building software iteratively with a strong feedback loop from customers.
+    </p>
+    <p>
+      The story of how the Wright Brothers built the first airplane, is testament
+      to the fact that structuring your venture as a series of small, cheap experiments
+      allows you to learn a lot about your domain, and enables you to design solutions with real, practical
+      impact.
+    </p>
+    <p>Quoted from
+      the <%= link_to 'Smithsonian National Air and Space Museum', 'http://airandspace.si.edu/exhibitions/wright-brothers/online/fly/' %></p>
+    <blockquote>
+      The genius of Wilbur and Orville lay not only in the singular act of getting a flying machine into the air,
+      but also in the approach they evolved and employed to create the technology of flight. Their method of
+      evaluating data gathered by testing an aircraft in flight, then refining the design based on those results,
+      remains an essential tool in aerospace research and development.
+    </blockquote>
+  </section>
+</main>
